@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(204, 177, 238);
+}
+
+table{
+    background-color: aqua;
+    border: double 2px greenyellow;
+    width: 50%;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow:  0 0 40px #91dd78 ;
+
+}
+th,td{
+    border: solid 1px rgb(108, 0, 108);
+    width: 30px;
+    height: 1cm;
+    font-size: 20px;
+    border-radius: 30px; 
+}
+th{
+    background-color: rgb(175, 130, 130);
+
+}
+tr :hover{
+ background-color: rgb(181, 141, 82);
+}
+tr :hover{
+    color: #ffe9e9 ;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;    
+    background-image: url(https://i.gifer.com/origin/23/23fccf95d397aa15f2ce2d875c44b94d.gif);
+   background-attachment: fixed;
+}
+tr:nth-child(odd){
+    background-color: lightcyan;
+
+}
+
+
